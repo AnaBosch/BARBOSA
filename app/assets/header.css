@@ -1,0 +1,63 @@
+/**************************************/
+/* Diseño del header de la aplicación */
+/**************************************/
+
+/* Diseño del logo */
+.logo {
+  margin-top: 5%;
+  margin-left: 3.7%;
+  height: 90px;
+}
+
+/* Diseño del título de la aplicación */
+.title {
+  margin-left: 3.7%;
+  margin-right: 3.7%;
+}
+
+/* Diseño del título de la aplicación */
+.logout {
+  width: 4%;
+  float: right;
+  margin-right: 3.7%;
+  margin-top: 2%;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.logout:hover {
+  opacity: 0.3;
+}
+/* Diseño de la barra de navegación */
+.navbar {
+  list-style-type: none;
+  float: left;
+  border-right:1px solid #bbb;
+  display: block;
+  color: #0D0D0D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Gill Sans;
+  font-variant: small-caps;
+  transition: .2s ease;
+}
+
+.navbar:hover {
+  color: #45BF42;
+}
+
+.diseño-navbar {
+  font-weight:lighter;
+  margin-top: 0.5%;
+  margin-left: 3.7%;
+}
+
+/* Diseño del selector de fecha */
+.selector-fecha {
+  width: 15%;
+  float:right;
+  padding-right: 3.7%;
+  z-index: 999;
+  position: relative
+}
